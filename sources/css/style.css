@@ -1,3 +1,65 @@
 body {
-	background-color: grey;
+	background-image: url("http://i.imgur.com/6R0Q1DU.jpg");
+    position: static;
+}
+
+nav {
+    background-color: #778894;
+    font-family: Georgia;
+    font-size: 60px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:  flex;/*
+    flex-direction: row;*/
+    justify-content: space-around;
+}
+
+.nav .pokeSearch{
+    display: inline;
+    width: 90%;
+    height: auto;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;/*
+    padding: 40px 40px;*/
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #667783;
+}
+
+.container {
+    background-color: azure;
+    border: 1px solid #E6E7E9;
+    border-radius:  4px;
+    font-size: 20px;
+    padding: 10px 20px 0px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#pokes li{
+    list-style-type: none;
+    display: inline;
+}
+
+#pokes ul li img{
+    max-height: 250px;
+    max-width: 250px;
 }
