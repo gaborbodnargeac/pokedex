@@ -1,77 +1,113 @@
 body {
-	background-image: url("http://i.imgur.com/6R0Q1DU.jpg");
+    background-image: url("http://i.imgur.com/6R0Q1DU.jpg");
     position: static;
+    width: 100%;
+    margin: 0;
 }
 
 nav {
-    background-color: #778894;
-    font-family: Georgia;
-    font-size: 60px;
+    /*background-color: #bac0c1;*/
+    position: static;
+    /*font-family: Georgia;*/
+
+    width: 100%;
+    height: 100px;
 }
 
 nav ul{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display:  flex;/*
-    flex-direction: row;*/
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    color: slategrey;
+    text-decoration: none;
 }
 
-.nav .pokeSearch{
-    display: inline;
-    width: 90%;
-    height: auto;
-
-}
-
-.nav li a {
-    display: block;
-    color: white;
-    text-align: center;/*
-    padding: 40px 40px;*/
+nav ul li a{
+    color: slategrey;
     text-decoration: none;
 }
 
 .nav li a:hover {
-    background-color: #667783;
+    /*background-color: #667783;*/
+    font-size: 120%;
 }
 
 h1 {
-    font-family: Georgia;
+    /*font-family: Georgia;*/
+    font-family: cursive;
     font-size: 60px;
     display: flex;
     justify-content: center;
 }
 
 .container {
-    background-color: azure;
+    /*background-color: azure;
     border: 1px solid #E6E7E9;
     border-radius:  4px;
-    font-size: 20px;
+    font-size: 20px;*/
     padding: 10px 20px 0px 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-#pokes li{
+/*#pokes li{
     list-style-type: none;
     display: inline;
-}
+}*/
 
 #pokes ul li img{
     height: 250px;
     width: 250px;
 }
 
-/*#pokes ul span{
-    flex-direction: column;
-    align-items: center;
-    background: #fffaaa;
+
+
+/*#searchForm{
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
 }*/
 
+#searchQueryStr{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#pokes ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+#pokes li {
+    position: relative;
+    margin-left: 5px;
+}
+
+#pokes li label {
+    display: block;
+    text-align: center;
+    font-family: Aharoni;
+    font-size:  30px;
+    color: slategrey;
+}
+
+#footer {
+    position: fixed;
+    margin-top: 0;
+    height: 200px;
+    clear: both;
+}
+
 /*
-#pokes ul span li{
-    flex-direction: column;
-    align-items: center;
-}*/
+#pokes li label
+border-radius: 50%;*/

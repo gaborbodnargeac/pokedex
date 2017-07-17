@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+
+<body>
+
+<nav class="nav">
+    <ul>
+        <li>
+            <a href="https://pokeapi.co/"><img src="http://2shotsofgeek.com/wp-content/uploads/2015/05/Pokemon.png" width="200" height="60" alt="pokeBall"></a>
+        </li>
+        <li>
+            <a href="index.html">Pokes</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <label style="font-size: 30px;">Search: </label>
+            <form class="searchForm" style="display: inline">
+                <input type="search" id="search" name="q" placeholder="PokeName">
+                <!--<input type="submit" value="Search">-->
+                <!--<input type="button" value="Search" onclick="pokeSearch()">-->
+            </form>
+        </li>
+    </ul>
+</nav>
+<p id="searchQueryStr"> </p>
+
+
+<h1>Pokemons</h1>
+
+
+<div id="pokes" class="container">
+
+    <ul></ul>
+
+</div>
+
+<!--<footer id="footer">
+    <p>Sources:</p>
+</footer>-->
+
+<script src="js/pokemons.js"></script>
+</body>
+</html>
