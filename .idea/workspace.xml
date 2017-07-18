@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de766d4e-4ce5-4c21-a60d-9511ceafda78" name="Default" comment="initial commit" />
+    <list default="true" id="de766d4e-4ce5-4c21-a60d-9511ceafda78" name="Default" comment="initial commit">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sources/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/about.html" afterPath="$PROJECT_DIR$/sources/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/search.html" afterPath="$PROJECT_DIR$/sources/search.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sources/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
+            <state relative-caret-position="323">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -29,8 +34,8 @@
       <file leaf-file-name="pokemons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/js/pokemons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="63" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="646">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -39,8 +44,8 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="100" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="20" />
+            <state relative-caret-position="778">
+              <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -121,6 +126,7 @@
         <option value="$PROJECT_DIR$/sources/index.html" />
         <option value="$PROJECT_DIR$/sources/js/pokemons.js" />
         <option value="$PROJECT_DIR$/sources/js/functions.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -240,6 +246,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\pokedex" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\pokedex\sources\css" />
     </key>
@@ -657,12 +666,12 @@
       <updated>1499943462644</updated>
       <workItem from="1499943465415" duration="16548000" />
       <workItem from="1500275732346" duration="24288000" />
-      <workItem from="1500362296200" duration="3562000" />
+      <workItem from="1500362296200" duration="4893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44398000" />
+    <option name="totallyTimeSpent" value="45729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1296" height="1040" extended-state="6" />
@@ -743,7 +752,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sources/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="55" lean-forward="false" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
@@ -781,7 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
@@ -869,24 +878,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="100" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="20" />
+        <state relative-caret-position="778">
+          <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/js/pokemons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="63" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="646">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#label#0;n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#li#3;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
